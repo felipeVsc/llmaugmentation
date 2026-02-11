@@ -4,7 +4,19 @@ This repository is related to the "On the Efficacy of Using LLMs for Context Dri
 
 This paper investigates the use of large language models (LLMs) to complete missing attribute values in property graphs. We propose an experimental protocol to evaluate LLM-based data augmentation in terms of accuracy, prompting effort, and environmental impact, and introduce a difficulty metric inspired by perplexity.
 
-Cite: 
+### Authors 
+
+Authors: Felipe Vasconcelos (1) Cristina Aguiar (1), Alexandre Chanson (2), Mirian Halfeld-Ferrari (3),
+Patrick Marcel (3), and Verónika Peralta (2)
+
+1. ICMC, University of São Paulo, São Carlos, Brazil
+2. LIFAT, Université de Tours, France
+3. Université d’Orléans, INSA CVL, LIFO, UR 4022, Orléans, France
+
+
+### Reference
+
+TBD
 
 ### This repository
 
@@ -19,11 +31,10 @@ This repository is divided into the following folders:
 
 ### Our dataset
 
-we built a property graph database on air routes and trade, comprising three node types: Airport nodes with geographic coordinates and ICAO codes; City nodes with population (in millions) and pollution indices; and Country nodes characterized by numerical indicators such as GDP and birth rate. 
+We built a property graph database on air routes and trade, comprising three node types: Airport nodes with geographic coordinates and ICAO codes; City nodes with population (in millions) and pollution indices; and Country nodes characterized by numerical indicators such as GDP and birth rate. A Neo4j dump is available in this repository.
 
-Image from the dataset
+![alt text](dataset.png)
 
-A Neo4j dump is available in this repository.. 
 
 ### Running
 
