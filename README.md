@@ -1,6 +1,6 @@
-## Property Graph Augmentation using LLMs
+# Property Graph Augmentation using LLMs
 
-This repository is related to the "On the Efficacy of Using LLMs for Context Driven Entity Augmentation in Property Graphs" paper published at DOLAP 2026 Workshop [DOLAP 2026 Workshop](https://dolapworkshop.github.io/dolap-2026/) at [EDBT26 Conferencek](https://edbticdt2026.github.io/). 
+This repository is related to the "On the Efficacy of Using LLMs for Context Driven Entity Augmentation in Property Graphs" paper published at [DOLAP 2026 Workshop](https://dolapworkshop.github.io/dolap-2026/) at [EDBT26 Conference](https://edbticdt2026.github.io/). 
 
 This paper investigates the use of large language models (LLMs) to complete missing attribute values in property graphs. We propose an experimental protocol to evaluate LLM-based data augmentation in terms of accuracy, prompting effort, and environmental impact, and introduce a difficulty metric inspired by perplexity.
 
@@ -18,7 +18,7 @@ Patrick Marcel (3), and Verónika Peralta (2)
 
 TBD
 
-### This repository
+## This repository
 
 This repository is divided into the following folders:
 
@@ -29,16 +29,16 @@ This repository is divided into the following folders:
 * Prompts: Contains file texts with the used prompts
 
 
-### Our dataset
+## Our dataset
 
 We built a property graph database on air routes and trade, comprising three node types: Airport nodes with geographic coordinates and ICAO codes; City nodes with population (in millions) and pollution indices; and Country nodes characterized by numerical indicators such as GDP and birth rate. A Neo4j dump is available in this repository.
 
 ![alt text](dataset.png)
 
 
-### Running
+## Running
 
-#### Requirements
+### Requirements
 
 his code has been tested with Python 3.12, and Neo4J 5.x, to install the required packages we recommend the use of a python virtual environement.
 
@@ -48,7 +48,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-#### Enviroment keys
+### Enviroment keys
 
 You need to create a .env file for running this code. The file .env.example contains the template for the API keys and hosts for each provider. 
 
@@ -64,7 +64,7 @@ DB_USER=""
 DB_NAME=""
 ```
 
-#### Experiments
+### Experiments
 
 **Models**
 
